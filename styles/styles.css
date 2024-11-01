@@ -1,30 +1,30 @@
 body {
-    background-color: #f8f9fa; /* Light background */
+    background-color: #f8f9fa; 
 }
 
 h1 {
-    color: #343a40; /* Dark color for headings */
+    color: #343a40; 
 }
 
 .card {
-    background-color: #ffffff; /* White background for cards */
-    border: 1px solid #dee2e6; /* Light border */
-    border-radius: 0.25rem; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; 
+    border: 1px solid #dee2e6; 
+    border-radius: 0.25rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .card-title {
-    color: #007bff; /* Bootstrap primary color for card titles */
+    color: #007bff; 
 }
 
 .text-muted {
-    color: #6c757d; /* Muted text color */
+    color: #6c757d; 
 }
 
 .lead {
-    font-size: 1.25rem; /* Larger lead text */
+    font-size: 1.25rem; 
 }
 
 .display-4 {
-    font-size: 2.5rem; /* Larger display text for headings */
+    font-size: 2.5rem;
 }
