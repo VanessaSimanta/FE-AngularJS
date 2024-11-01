@@ -1,0 +1,20 @@
+<div class="text-center">
+    <h1 class="display-4">{{ channelInfo.heading }}</h1>
+    <h2 class="lead">{{ channelInfo.subheading }}</h2>
+    <h3>{{ channelInfo.subheading2.nama }} ({{ channelInfo.subheading2.npm }})</h3>
+    <h4 class="mb-4">Jurusan: {{ channelInfo.subheading2.jurusan }}</h4>
+
+    <div class="card mb-3" style="max-width: 540px; margin: auto;">
+        <div class="card-body">
+            <div ng-if="kota">
+                <h5 class="card-title">Weather in {{ kota }}</h5>
+                <p class="card-text"><strong>Description:</strong> {{ description }}</p>
+                <p class="card-text"><strong>Temperature:</strong> {{ temp }}</p>
+                <p class="card-text"><strong>Wind Speed:</strong> {{ wind }}</p>
+            </div>
+            <div ng-if="!kota">
+                <p class="text-muted">Loading weather data...</p>
+            </div>
+        </div>
+    </div>
+</div>

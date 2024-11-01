@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+}
+
+h1 {
+    color: #343a40; /* Dark color for headings */
+}
+
+.card {
+    background-color: #ffffff; /* White background for cards */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-title {
+    color: #007bff; /* Bootstrap primary color for card titles */
+}
+
+.text-muted {
+    color: #6c757d; /* Muted text color */
+}
+
+.lead {
+    font-size: 1.25rem; /* Larger lead text */
+}
+
+.display-4 {
+    font-size: 2.5rem; /* Larger display text for headings */
+}
