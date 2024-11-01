@@ -1,0 +1,17 @@
+{
+    "name": "my-angular-app",
+    "version": "1.0.0",
+    "description": "A simple AngularJS application with item management",
+    "main": "index.js",
+    "dependencies": {
+      "angular": "^1.8.2",
+      "angular-route": "^1.8.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "http-server -a localhost -p 8000"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+  }
+  
